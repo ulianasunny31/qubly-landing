@@ -3,13 +3,20 @@
   --light-purple: #f7f1ff;
   --black-text: #000000;
   --primary-font: 'Metrophobic', sans-serif;
+  --white: #ffffff;
 }
 
 body {
   font-family: var(--primary-font);
   color: var(--black-text);
+  background-color: var(--white);
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 h1,
 h2,
 h3,
@@ -35,14 +42,25 @@ ol {
   text-decoration: none;
 }
 
+.contaner {
+  max-width: 960px;
+}
+
 /**
   |============================
   | HERO SECTION
   |============================
 */
 .hero-section {
-  background: linear-gradient(to bottom right, #ffffff, #e2f1ff);
-  padding-bottom: 158px;
+  /* background-image: url('../images/BG.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1440px; */
+  width: 100%;
+  height: 696px;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, #fff, #e2f1ff);
+  padding-top: 20px;
 }
 
 .navigation {
@@ -80,6 +98,11 @@ ol {
   border-radius: 23px;
 }
 
+.btns-container {
+  display: flex;
+  gap: 16px;
+}
+
 .btns-container button {
   width: 100%;
   display: flex;
@@ -88,16 +111,28 @@ ol {
   max-width: 142px;
   box-sizing: border-box;
   align-items: center;
-  border-radius: 23px 23px 23px 23px;
+  border-radius: 23px;
   justify-content: center;
   font-size: 14px;
   font-style: normal;
+  border: none;
+  height: 38px;
+}
+
+.btn-start {
+  color: var(--white);
+  background-color: var(--primary-purple);
+}
+
+.btn-learn {
+  color: var(--primary-purple);
+  background-color: var(--white);
 }
 
 .main-hero-container {
   display: flex;
   gap: 16px;
-  margin-left: 240px;
+  margin: 0 auto;
 }
 
 .text-container {
@@ -135,4 +170,54 @@ ol {
   line-height: 24px;
   margin-bottom: 24px;
   opacity: 60%;
+}
+
+/**
+  |============================
+  | WHY SECTION
+  |============================
+*/
+
+.why-section {
+  padding: 112px 240px;
+}
+
+.main-why-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why-p {
+  color: var(--primary-purple);
+  font-weight: bold;
+  font-size: 16px;
+  width: 158px;
+  height: 40px;
+  border-radius: 20px;
+  background: var(--light-purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.eye-icon {
+  fill: var(--primary-purple);
+}
+
+.why-heading {
+  font-weight: bold;
+  border-radius: 32px;
+  color: var(--black-text);
+  margin-bottom: 24px;
+}
+
+.big-p-why {
+  font-size: 16px;
+  opacity: 70%;
+  color: var(--black-text);
+  max-width: 672px;
+  text-align: center;
+  margin-bottom: 24px;
 }
