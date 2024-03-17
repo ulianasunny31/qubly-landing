@@ -4,6 +4,12 @@
   --black-text: #000000;
   --primary-font: 'Metrophobic', sans-serif;
   --white: #ffffff;
+  --light-blue: #e6f7ff;
+  --blue: #1890ff;
+  --light-red: #fff1f0;
+  --red: #f5222d;
+  --light-green: #f6ffed;
+  --green: #52c41a;
 }
 
 body {
@@ -220,4 +226,63 @@ ol {
   max-width: 672px;
   text-align: center;
   margin-bottom: 24px;
+}
+
+.why-reasons-list {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 16px;
+}
+
+.why-reasons-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 317px;
+}
+
+.why-reasons-heading {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.why-reasons-p {
+  font-size: 16px;
+  opacity: 70%;
+}
+
+.icon-container {
+  margin-bottom: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.insights {
+  background-color: var(--light-blue);
+}
+
+.icon-insights {
+  fill: var(--blue);
+}
+
+.algorithms {
+  background-color: var(--light-red);
+}
+
+.icon-algorithms {
+  fill: var(--red);
+}
+
+.data {
+  background-color: var(--light-green);
+}
+
+.icon-data {
+  fill: var(--green);
 }
