@@ -2,6 +2,7 @@
   --primary-purple: #722ed1;
   --light-purple: #f7f1ff;
   --black-text: #000000;
+  --grey-text: #8989a2;
   --primary-font: 'Metrophobic', sans-serif;
   --white: #ffffff;
   --light-blue: #e6f7ff;
@@ -210,6 +211,7 @@ ol {
 
 .eye-icon {
   fill: var(--primary-purple);
+  margin-right: 10px;
 }
 
 .why-heading {
@@ -221,8 +223,7 @@ ol {
 
 .big-p-why {
   font-size: 16px;
-  opacity: 70%;
-  color: var(--black-text);
+  color: var(--grey-text);
   max-width: 672px;
   text-align: center;
   margin-bottom: 24px;
@@ -249,7 +250,7 @@ ol {
 
 .why-reasons-p {
   font-size: 16px;
-  opacity: 70%;
+  color: var(--grey-text);
 }
 
 .icon-container {
@@ -335,7 +336,7 @@ ol {
 
 .circle1 {
   top: 0;
-  left: 185px;
+  left: 190px;
 }
 
 .circle2 {
@@ -343,7 +344,78 @@ ol {
   left: 40px;
 }
 
+.circle3 {
+  top: 230px;
+  left: 50px;
+}
+
+.circle4 {
+  top: 370px;
+  left: 110px;
+}
+
+.circle5 {
+  top: 360px;
+  left: 300px;
+}
+
+.circle6 {
+  top: 100px;
+  left: 320px;
+}
+
 .circle7 {
   top: 230px;
   left: 340px;
+}
+
+/* text */
+
+.product-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-big-p {
+  color: var(--primary-purple);
+  font-weight: bold;
+  font-size: 16px;
+  width: 224px;
+  height: 40px;
+  border-radius: 20px;
+  background: var(--light-purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.product-icon {
+  fill: var(--primary-purple);
+  margin-right: 14px;
+}
+
+.product-heading {
+  color: var(--black-text);
+  font-size: 32px;
+  font-weight: bold;
+  max-width: 420px;
+  margin-bottom: 24px;
+}
+
+.product-p {
+  width: 474px;
+  font-size: 16px;
+  color: var(--grey-text);
+}
+
+/**
+  |============================
+  | ENGINEER SECTION
+  |============================
+*/
+
+.main-engineer-container {
+  display: flex;
 }
