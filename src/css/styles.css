@@ -415,7 +415,53 @@ ol {
   | ENGINEER SECTION
   |============================
 */
+.engineer-section {
+  padding-left: 280px;
+  padding-right: 0;
+}
 
 .main-engineer-container {
   display: flex;
+}
+
+.engineer-text-container {
+  max-width: 509px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.engineer-big-p {
+  margin-bottom: 24px;
+  color: var(--primary-purple);
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: var(--light-purple);
+  max-width: 258px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.engineer-icon {
+  fill: var(--primary-purple);
+  margin-right: 10px;
+}
+
+.engineer-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--black-text);
+  margin-bottom: 24px;
+}
+
+.engineer-p {
+  width: 474px;
+  text-align: left;
+}
+
+.engineer-image {
+  width: 600px;
+  height: 400px;
 }
