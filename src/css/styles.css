@@ -14,6 +14,8 @@
   --green: #52c41a;
   --pink: #f9f0ff;
   --hot-pink: #d82d7e;
+  --orange: #fa8f21;
+  --secondary-white: #fbfcff;
 }
 
 body {
@@ -534,7 +536,7 @@ ol {
 */
 
 .form-section {
-  padding: 0px 220px 100px 280px;
+  padding: 0px 220px 120px 280px;
 }
 
 .main-form-container {
@@ -669,4 +671,70 @@ ol {
   font-size: 16px;
   font-weight: bold;
   color: var(--primary-purple);
+}
+
+/**
+  |============================
+  | FOOTER SECTION
+  |============================
+*/
+
+.footer-section {
+  padding-top: 58px;
+  padding-left: 250px;
+  padding-bottom: 50px;
+  background-color: var(--secondary-white);
+}
+
+.main-footer-container {
+  display: flex;
+}
+
+.logo-text-container {
+  width: 209px;
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+.text-p {
+  text-align: start;
+  margin-bottom: 24px;
+  margin-top: 14px;
+}
+
+.socials-list {
+  margin-right: 40px;
+  display: flex;
+  gap: 12px;
+}
+
+.inst {
+  fill: var(--hot-pink);
+}
+
+.product-list {
+  margin-right: 40px;
+}
+
+.dev-list {
+  margin-right: 40px;
+}
+
+.company-list {
+  margin-right: 40px;
+}
+
+.support-list {
+  margin-right: 40px;
+}
+
+.list-heading {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.main-footer-container ul > li {
+  font-size: 13px;
+  margin-bottom: 15px;
 }
