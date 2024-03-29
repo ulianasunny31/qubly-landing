@@ -351,12 +351,19 @@
                 type="text"
                 placeholder="Your primary email"
                 class="form-input"
+                required
               />
-              <input type="text" placeholder="Password" class="form-input" />
+              <input
+                type="text"
+                placeholder="Password"
+                class="form-input"
+                required
+              />
               <input
                 type="text"
                 placeholder="Re-type Password"
                 class="form-input last"
+                required
               />
               <div class="line"></div>
               <div class="login">
@@ -439,7 +446,12 @@
           <div class="newsletter">
             <h4 class="list-heading">Newsletter</h4>
             <div class="input-container">
-              <input class="newsletter-input" type="text" placeholder="Email" />
+              <input
+                class="newsletter-input"
+                type="email"
+                placeholder="Email"
+                required
+              />
               <button class="newsletter-sbt">
                 <svg class="submit-letter" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-send"></use>

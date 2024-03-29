@@ -750,7 +750,7 @@ ol {
 }
 
 .newsletter-input {
-  border: none;
+  border: 1px solid transparent;
   height: 40px;
   color: var(--primary-purple);
   font-size: 14px;
